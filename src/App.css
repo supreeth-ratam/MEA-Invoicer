@@ -1,4 +1,5 @@
 .invoice{
+    position: relative;
     font-family: 'Reem kufi';
     margin-top: 40px;
     padding: 40px;
@@ -17,7 +18,9 @@
     margin-left: -25px;
 }
 .pad{
-    padding-top: 100px;
+   position: absolute;
+   top: 253px;
+right: 43px;
 }
 .main{
     width: 60%;
