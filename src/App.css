@@ -1,12 +1,30 @@
 .invoice{
     font-family: 'Reem kufi';
-    }
+    margin-top: 40px;
+    padding: 40px;
+ }
+#main-head{
+    margin-top: 6px;
+    margin-left: -60px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.invoice h1{
+    color: #42414194;
+}
+.logo{
+    margin-left: -25px;
+}
+.pad{
+    padding-top: 100px;
+}
 .main{
     width: 60%;
 }
 .description{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
 }
 .issued{
@@ -14,7 +32,7 @@
 }
 p{
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 
 }
 .bold{

@@ -6,11 +6,12 @@ export default function Invoice(props) {
   let month = `${today.getMonth() + 1 < 10 ? "0" : ""}${today.getMonth() + 1}`;
   let year = `${today.getFullYear()}`;
   return (
-    <div className="invoice  mt-3 p-3">
+    <div className="invoice">
       <div className="header d-flex justify-content-between mb-6">
-        <div><h1>MEA</h1>
-        <h2>Fund for 2022 Batch</h2></div>
-        <h1>Invoice</h1>
+        <div ><img src="https://telegra.ph/file/c52384c7dbffa6bb5d162.png" alt="not found" className="logo"/>
+        <h2>Fund for 2021 Batch</h2></div>
+        <h3  id="main-head">Mechanical Engineering</h3>
+        <h1 className="pad">Invoice</h1>
       </div>
       <div className="details my-3">
         

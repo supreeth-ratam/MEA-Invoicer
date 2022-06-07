@@ -23,7 +23,7 @@ function App() {
     <Form changeName={handleName} changeRoll={handleRoll} />
     <div className="container main border border-secondary rounded p-3">
     <ReactToPrint trigger={() => <button className="btn btn-danger mx-3">Download PDF</button>} content={() => componentRef.current}/>
-    <div  ref={componentRef}>      
+    <div  ref={componentRef} className="my-3">      
       <Invoice name={name} roll={roll}/>    
      
     </div>
