@@ -43,3 +43,15 @@ p{
 .bold{
   font-weight: 600;
 }
+
+/*------------------------------------- Login------------------------------------- */
+.login{
+    display: flex;
+    align-items: center;
+}
+.login-box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
