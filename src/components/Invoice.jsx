@@ -1,10 +1,12 @@
 import React from "react";
 
+
 export default function Invoice(props) {
   let today = new Date();
   let day = `${today.getDate() < 10 ? "0" : ""}${today.getDate()}`;
   let month = `${today.getMonth() + 1 < 10 ? "0" : ""}${today.getMonth() + 1}`;
   let year = `${today.getFullYear()}`;
+  
   return (
     <div className="invoice">
       <div className="header d-flex justify-content-start mb-6">

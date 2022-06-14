@@ -10,6 +10,7 @@ export default function Form(props) {
       <div className="form-item">
       <label htmlFor="rollno" className='mx-3'>Roll Number</label>
       <input type="text" name="number" id="number" value={props.roll} onChange ={props.changeRoll} />
+      <button className='btn btn-primary mx-3 ' onClick={props.addStudent}>Submit</button>
       </div>
       
     </div>
