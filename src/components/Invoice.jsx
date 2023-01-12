@@ -10,8 +10,8 @@ export default function Invoice(props) {
   return (
     <div className="invoice">
       <div className="header d-flex justify-content-start mb-6">
-        <div ><img src="https://telegra.ph/file/c52384c7dbffa6bb5d162.png" alt="not found" className="logo"/>
-        <h2>Fund for 2021 Batch</h2>
+        <div ><img src="assets/logo.png" alt="not found" className="logo"/>
+        <h2>Fund for 2022 Batch</h2>
         </div>
         <h3  id="main-head">Mechanical Engineering Association</h3>
         
@@ -35,7 +35,7 @@ export default function Invoice(props) {
         <p>
           This invoice is to confirm that you have paid amount Rs 500 only
           towards one time funding in Mechanical Engineering Association (MEA)
-          for the year 2021-2025/26
+          for the year 2022-2026/27
         </p>
       </div>
       <div className="issued">
